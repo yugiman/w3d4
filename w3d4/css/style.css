@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    color:white;
+}
+body{
+    background-color: red;
+}
+.wallpaper{
+    height:1000px;
+    width:100%;
+    background: #000000 url(../images/title.jpg) no-repeat center;
+    background-attachment: fixed;
+
+}
+.cover {
+    background-color: #00000073;
+    height:1000px;
+    width:100%;
+
+}
+.title p{
+    color:white;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.title{
+    width:50%;
+}
+.head{
+    margin:0 auto;
+    padding-top:20px;
+    width:80%;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+    padding:5px 5px 0px 5px;
+    
+    
+}
+ul#flex{
+    display:flex;
+    justify-content: flex-end;
+}
+.links{
+    width:50%;
+}
+.big-box{
+    display: flex;
+    justify-content: center;
+    margin-top:10em;
+    display: flex;
+    flex-direction: column;
+}
+.fresh{
+    align-self: center;
+    font-size: 5.2em;   
+    padding:0px 50px;
+    border-bottom: 3px solid white;
+    font-weight: bolder;
+    
+}
+.other{
+    align-self: center;
+    font-size: 45px; 
+    font-weight:100;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+.bread{
+    background: black url(../images/bread.jpg) no-repeat center center;
+    background-size: cover;
+    width:40%;
+    height:500px;
+}
+.bread-text-area{
+    width:60%;
+    height:500px;
+    background-color: #010101;
+}
+.section1{
+    display: flex;
+}
+.section-text{
+    width:80%;
+    height: 400px;
+    margin: 100px auto;
+}
+.section-text h1{
+    font-family: 'League Script', cursive;
+    font-size:60px;
+}
+.section-text p{
+    font-family: 'Lato', sans-serif;
+    font-size:30px;
+    padding-top:30px;
+}
+.pineapple{
+    width:30%;
+    height:500px;
+    background: black url(../images/pineapple.jpg) no-repeat center right;
+    background-size: cover;
+    order:2;
+}
+.pineapple-text-area{
+    width:70%;
+    Height:500px;
+    background-color: #121212;
+    order:1;
+}
+.section2{
+    display: flex;
+}
+.section3{
+    display: flex;
+}
+.italian{
+    background: #212121 url(../images/pasta.jpg) no-repeat center center;
+    background-size: cover;
+    width:40%;
+    height:500px;
+}
+.italian-text-area{
+    background-color: #212121;
+    width:60%;
+    height:500px;
+}
